@@ -1,7 +1,7 @@
 [submodule "Prophecy/FateGenerator"]
 	path = Prophecy/FateGenerator
 	url = git@github.com:SubmoduleDemo/FateGenerator.git
-	branch = long_fate
+	branch = develop
 [submodule "Prophecy/Emojinator"]
 	path = Prophecy/Emojinator
 	url = git@github.com:Sergey-Lomov/Emojinator.git
