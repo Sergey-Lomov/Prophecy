@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func getFate() {
-//        let name = nameField.text ?? ""
-//        let fateText = FateGenerator().fate(name: name)
-//        let fateEmoji = Emojinator().emojinate(string: fateText)
-//        fateLabel.text = fateEmoji
+        let name = nameField.text ?? ""
+        let fateText = FateGenerator().fate(name: name)
+        let fateEmoji = Emojinator().emojinate(string: fateText)
+        fateLabel.text = fateEmoji
     }
 }
 

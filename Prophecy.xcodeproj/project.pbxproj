@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		675C17FF265D300900306507 /* Emojinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C17FE265D300900306507 /* Emojinator.swift */; };
+		675C1802265D301300306507 /* FateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675C1801265D301300306507 /* FateGenerator.swift */; };
 		675F98282624841D0001E402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675F98272624841D0001E402 /* AppDelegate.swift */; };
 		675F982A2624841D0001E402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675F98292624841D0001E402 /* SceneDelegate.swift */; };
 		675F982C2624841D0001E402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675F982B2624841D0001E402 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		675C17FE265D300900306507 /* Emojinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emojinator.swift; sourceTree = "<group>"; };
+		675C1801265D301300306507 /* FateGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FateGenerator.swift; sourceTree = "<group>"; };
 		675F98242624841D0001E402 /* Prophecy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prophecy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675F98272624841D0001E402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		675F98292624841D0001E402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,9 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		675C17FD265D300900306507 /* Emojinator */ = {
+			isa = PBXGroup;
+			children = (
+				675C17FE265D300900306507 /* Emojinator.swift */,
+			);
+			name = Emojinator;
+			path = Prophecy/Emojinator;
+			sourceTree = "<group>";
+		};
+		675C1800265D301300306507 /* FateGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				675C1801265D301300306507 /* FateGenerator.swift */,
+			);
+			name = FateGenerator;
+			path = Prophecy/FateGenerator;
+			sourceTree = "<group>";
+		};
 		675F981B2624841D0001E402 = {
 			isa = PBXGroup;
 			children = (
+				675C1800265D301300306507 /* FateGenerator */,
+				675C17FD265D300900306507 /* Emojinator */,
 				675F98262624841D0001E402 /* Prophecy */,
 				675F983D2624841F0001E402 /* ProphecyTests */,
 				675F98482624841F0001E402 /* ProphecyUITests */,
@@ -259,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				675F982C2624841D0001E402 /* ViewController.swift in Sources */,
+				675C1802265D301300306507 /* FateGenerator.swift in Sources */,
 				675F98282624841D0001E402 /* AppDelegate.swift in Sources */,
 				675F982A2624841D0001E402 /* SceneDelegate.swift in Sources */,
+				675C17FF265D300900306507 /* Emojinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
